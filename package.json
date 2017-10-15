@@ -1,0 +1,17 @@
+{
+  "name": "react-easytabs",
+  "version": "0.0.1",
+  "description": "React tab component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"react\""
+  ],
+  "author": "\"react-component\",",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.0.0"
+  }
+}
