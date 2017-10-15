@@ -1,12 +1,15 @@
 ### Component API:
 `<Tabs>` component:
+
 | Property | Type | Default | Required | Description |
 |------------------|--------|---------|----------|-------------------------------------------|
 | className | String | n/a | no | class needed to style <ul> element |
 | headerClass | String | n/a | no | class needed to style tabs <div> |
 | activePanelClass | String | n/a | no | style needed to style active <li> element |
 
+
 `<Panel>` component:
+
 | Property | Type | Default | Required | Description |
 |----------|--------|---------|----------|--------------------|
 | title | string | n/a | yes | tabs header  title |
