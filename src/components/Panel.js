@@ -3,11 +3,12 @@ import React from "react";
 class Panel extends React.Component {
     constructor(props) {
         super(props);
+        this.handleClick=this.handleClick.bind(this)
         this.state = {
             "active": 0
         }
     }
-    handleClick = (e) => {
+    handleClick(e){
         this.props.handleChildren(this.props.index);
     }
     render() {

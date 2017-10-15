@@ -3,8 +3,8 @@ import Panel from "./Panel";
 
 class Tabs extends React.Component {
     constructor(props) {
-
         super(props);
+          this.handleChildren=this.handleChildren.bind(this)
         this.state = {
             "activePanel": 0,
             "view": this.preProccessChildren(props.children, 0)[0].props.children
@@ -24,7 +24,7 @@ class Tabs extends React.Component {
         }
         return c;
     }
-    handleChildren = (index) => {
+    handleChildren(index){
         this.setState({activePanel: index})
     };
 

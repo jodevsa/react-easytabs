@@ -1,17 +1,34 @@
 {
-  "name": "react-easytabs",
-  "version": "0.0.1",
-  "description": "React tab component",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "\"react\""
-  ],
-  "author": "\"react-component\",",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^16.0.0"
-  }
+    "name": "react-easytabs",
+    "version": "0.0.1",
+    "description": "React tab component",
+    "main": "build/index.js",
+    "peerDependencies": {
+        "react": "^16.0.0"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "webpack --watch",
+      "build": "webpack"
+    },
+    "keywords": [
+        ""
+    ],
+    "author": {
+        "name": "jodevsa",
+        "email": "jodevsa@gmail.com"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "react": "^16.0.0",
+        "webpack": "^3.7.1"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.5.1"
+    }
 }
