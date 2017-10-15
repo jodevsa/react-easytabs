@@ -20,10 +20,10 @@
     },
     "license": "ISC",
     "dependencies": {
-        "react": "^16.0.0",
-        "webpack": "^3.7.1"
+        "react": "^16.0.0"
     },
     "devDependencies": {
+        "webpack": "^3.7.1",
         "babel-cli": "^6.24.1",
         "babel-core": "^6.24.1",
         "babel-loader": "^7.0.0",
